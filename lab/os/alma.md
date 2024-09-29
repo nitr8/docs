@@ -14,3 +14,8 @@ Alternatively, you can set or change the hostname of your system using NetworkMa
 ```bash
 sudo nmtui
 ```
+
+## VMware Tools
+```bash
+sudo dnf -y install open-vm-tools
+```

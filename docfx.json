@@ -34,8 +34,7 @@
       "pdf": false,
       "_gitContribute": {
         "repo": "https://github.com/nitr8/docs",
-        "branch": "master",
-        "apiSpecFolder": "apidoc"
+        "branch": "main"
       }
     }
   }
