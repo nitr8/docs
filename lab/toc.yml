@@ -1,0 +1,15 @@
+items:
+- name: LAB
+  items:
+  - name: Hardware
+  - href: hardware/rpi5.md
+  - href: hardware/nas.md
+  - name: OS
+  - href: os/raspberry.md
+  - href: os/alma.md
+  - name: Servers
+  - href: server/awx.md
+  - href: server/container/portainer.md
+  - href: server/container/container.md
+  - href: server/container/docker.md
+  - href: server/container/podmon.md

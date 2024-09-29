@@ -1,0 +1,42 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false,
+    "globalMetadata": {
+      "_appTitle": "NFYE LAB documentation",
+      "_appFooter": "<span>LAB &#8482;</span>",
+      "_appLogoPath": "images/logo.png",
+      "_enableSearch": true,
+      "pdf": false,
+      "_gitContribute": {
+        "repo": "https://github.com/nitr8/docs",
+        "branch": "master",
+        "apiSpecFolder": "apidoc"
+      }
+    }
+  }
+}
