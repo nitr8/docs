@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Raspberry Pi OS | NFYE LAB documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Raspberry Pi OS | NFYE LAB documentation ">
+    <meta name="generator" content="docfx 2.40.6.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="raspberry-pi-os" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="1" sourceendlinenumber="1">Raspberry Pi OS</h1>
+
+<p sourcefile="lab/os/raspberry.md" sourcestartlinenumber="2" sourceendlinenumber="2">Everything you need to know about the RaspberryPi available in the LAB. It is currently used to provide external access to the LAB via ZeroTier and hosts the LAB documentation.</p>
+<h2 id="installed-software" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="4" sourceendlinenumber="4">Installed Software</h2>
+<ul sourcefile="lab/os/raspberry.md" sourcestartlinenumber="5" sourceendlinenumber="9">
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="5" sourceendlinenumber="5">RaspberryPi OS 64 bit</li>
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="6" sourceendlinenumber="6">ZeroTier Client</li>
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="7" sourceendlinenumber="7">SSH Server</li>
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="8" sourceendlinenumber="8">VNC Server (Legacy Connection Enabled)</li>
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="9" sourceendlinenumber="9">DOCFX</li>
+</ul>
+<h2 id="credentials" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="11" sourceendlinenumber="11">Credentials</h2>
+<table sourcefile="lab/os/raspberry.md" sourcestartlinenumber="12" sourceendlinenumber="14">
+<thead>
+<tr>
+<th>Username</th>
+<th>Password</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>admin</td>
+<td>l3tm31n</td>
+</tr>
+</tbody>
+</table>
+<h2 id="networking" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="16" sourceendlinenumber="16">Networking</h2>
+<table sourcefile="lab/os/raspberry.md" sourcestartlinenumber="17" sourceendlinenumber="20">
+<thead>
+<tr>
+<th>IP</th>
+<th>Connection Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>127.0.0.1</td>
+<td>Ethernet</td>
+</tr>
+<tr>
+<td>1.1.1.1</td>
+<td>ZeroTier</td>
+</tr>
+</tbody>
+</table>
+<h2 id="zerotier" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="22" sourceendlinenumber="22">ZeroTier</h2>
+<div class="NOTE" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="23" sourceendlinenumber="23"><h5>Note</h5><p sourcefile="lab/os/raspberry.md" sourcestartlinenumber="24" sourceendlinenumber="24">Consider using Tailscale</p>
+<ul sourcefile="lab/os/raspberry.md" sourcestartlinenumber="25" sourceendlinenumber="27">
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="25" sourceendlinenumber="25">Is a &quot;virtual switch&quot;, every device that has the agent installed can communicate natively with each other. </li>
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="26" sourceendlinenumber="26">Network ID: <code>a1b2c3d4e5</code> (LAB)</li>
+<li sourcefile="lab/os/raspberry.md" sourcestartlinenumber="27" sourceendlinenumber="27">172.16.0.0/12</li>
+</ul>
+</div>
+<table sourcefile="lab/os/raspberry.md" sourcestartlinenumber="29" sourceendlinenumber="31">
+<thead>
+<tr>
+<th>Username</th>
+<th>Password</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lab@lab.ch</td>
+<td>50m353cuR3P455w0rd$!</td>
+</tr>
+</tbody>
+</table>
+<h2 id="backup" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="33" sourceendlinenumber="33">Backup</h2>
+<p sourcefile="lab/os/raspberry.md" sourcestartlinenumber="34" sourceendlinenumber="34">The RaspberryPi gets backed up every midnight using the following script located in <code>/usr/local/bin</code> via crontab:</p>
+<pre sourcefile="lab/os/raspberry.md" sourcestartlinenumber="35" sourceendlinenumber="67"><code>#!/bin/bash
+
+# User Variables #
+MountPoint=&quot;/media/backup/&quot;
+ServerName=&quot;//127.0.0.2/backup&quot;
+UserName=&quot;backup_user&quot;
+Password=&quot;50m353cuR3P455w0rd$!&quot;
+
+
+# You Should Not Need To Edit Past This Line #
+hname=`hostname`
+BackupDir=&quot;${MountPoint}${hname}&quot;
+
+
+# Check for backup directory, if not found create it #
+directory_check () {
+echo &quot;Checking for &quot;$BackupDir&quot; and creating if missing&quot;
+[ ! -d &quot;$BackupDir&quot; ] &amp;&amp; mkdir -p &quot;$BackupDir&quot;
+}
+
+
+# Do something else below #
+
+mount.cifs ${ServerName} ${MountPoint} -o user=${UserName},password=${Password}
+
+directory_check
+
+echo &quot;Starting Backup&quot;
+dd if=/dev/mmcblk0 of=${BackupDir}/$(date +%Y-%m-%d).img bs=1M status=progress
+echo &quot;Backup Complete&quot;
+umount /media/backup
+</code></pre><p sourcefile="lab/os/raspberry.md" sourcestartlinenumber="68" sourceendlinenumber="68">The Backups do not get rotated. The RaspberryPi uses own credentials for accessing the <a href="/hardware/nas.html" data-raw-source="[NAS](/hardware/nas.html)" sourcefile="lab/os/raspberry.md" sourcestartlinenumber="68" sourceendlinenumber="68">NAS</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nitr8/docs/blob/main/lab/os/raspberry.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>LAB &#8482;</span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

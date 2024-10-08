@@ -1,0 +1,61 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>LAB</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a>Hardware</a>
+                          </li>
+                          <li>
+                              <a href="hardware/rpi5.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a href="hardware/nas.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a>OS</a>
+                          </li>
+                          <li>
+                              <a href="os/raspberry.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a href="os/alma.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a>Servers</a>
+                          </li>
+                          <li>
+                              <a href="server/awx.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a href="server/container/portainer.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a href="server/container/container.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a href="server/container/docker.html" name="" title=""></a>
+                          </li>
+                          <li>
+                              <a href="server/container/podmon.html" name="" title=""></a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
